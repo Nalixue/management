@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 14px;
+    color: #484848;
+}
+a {
+    text-decoration: none;
+    color: #414141;
+}
+textarea {
+    width: 100%;
+}
+ul li {
+    list-style: none;
+}
+.hidden {
+    display: none;
+}
+.show {
+    display: inline-block;
+}
+.header {
+    padding-left: 20px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #ddd;
+    border-right: 3px solid #dbdbdd;
+    font-size: 28px;
+    font-weight: 900;
+    color: #979797;
+}
+.clearfix:after {
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+    display: block;
+}
+.detail {
+    float: left;
+    overflow: auto;
+    width: 100%;
+}
+.dt-wrap {
+    margin-left: 470px;
+}
+.dt-header, .dt-time {
+    padding-left: 20px;
+    height: 50px;
+    line-height: 2.5;
+    border-bottom: 3px solid #dbdbdd;
+}
+.dt-time {
+    line-height: 3.5;
+}
+.dt-header {
+    font-size: 22px;
+    font-weight: 900;
+    color: #414141;
+}
+.dt-header a{
+    float: right;
+    margin-right: 15px;
+}
+.dt-header a:hover,
+.icon-cross:hover,
+.footer:hover,
+.h-color {
+    color: #97C287;
+}
+.dt-content {
+    padding: 20px;
+}
+.ta-title {
+    padding: 25px 20px 10px 0;
+}
+.ta-title + p {
+    padding: 5px 10px 10px 0;
+}
+.list > li {
+    text-indent: 0;
+}
+ .list > li > p {
+    text-indent: 20px;
+} 
+.list-child li {
+    padding: 5px 0 5px 30px;
+}
+.list-child li:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+.icon-cross {
+    display: none;
+}
+.lt-title {
+    padding: 5px 0;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+}
+.list-child li:hover .icon-cross,
+.lt-title:hover .icon-cross {
+    float: right;
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 1.4;
+    font-size: 12px;
+}
+.defalut-class:hover .icon-cross {
+    display: none;
+}
+.dt-header {
+    background-color: #f3f3f3;
+}
+.dt-time {
+    background-color: #fafaee;
+}
+.sd-task {
+    float:left;
+    position: relative;
+    overflow: auto;
+    width: 237px;
+    margin-left: -100%;
+    text-indent: 20px;
+    border-right: 3px solid #dbdbdd;
+    background-color: #f2f2f2;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 2.5;
+    vertical-align: middle;
+    background-color: #eee;
+    border-top: 3px solid #dbdbdd;
+    cursor: pointer;
+}
+.sd-complete {
+    float: left;
+    position: relative;
+    overflow: auto;
+    left: 240px;
+    margin-left: -100%;
+    width: 227px;
+    text-indent: 20px;
+    border-right: 3px solid #dbdbdd;
+}
+.com-header {
+    padding: 10px;
+    height: 20px;
+    border-bottom: 3px solid #dbdbdd;
+    background-color: #eee;
+}
+.com-header li {
+    float: left;
+    margin-left: 10px;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-indent: 0;
+}
+.com-header li:hover {
+    outline: 1px solid #dedede;
+    border-radius: 2px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.com-con p {
+    padding: 5px 0;
+    border-bottom: 1px solid #fff;
+    text-indent: 20px;
+    background-color: #fafaee;
+}
+.com-con > li {
+    text-indent: 0;
+}
+.com-list li {
+    padding: 5px 30px;
+}
+.com-list li:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+.mask {
+    position: absolute;
+    top: 25%;;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    color: #fff;
+}
+.mask-wrap {
+    position: relative;
+    left: 50%;
+    margin-left: -200px;
+    padding: 30px 30px 110px 30px;
+    width: 340px;
+    background-color: #979797;
+}
+.mask p {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 16px;
+}
+.mask p input {
+    width: 248px;
+    height: 30px;
+}
+.mask textarea {
+    width: 250px;
+    height: 100px;
+}
+.mask input[type="submit"] {
+    position: relative;
+    bottom: -65px;
+    float: right;
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+}
+.class-option {
+    position: relative;
+    bottom:  -65px;
+}
+.class-option select {
+    width: 250px;
+}
+.tit-back {
+    background-color: #fff;
+}
+.wrong {
+    color: #CF2323;
+}
